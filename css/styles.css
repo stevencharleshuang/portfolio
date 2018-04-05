@@ -1,0 +1,14 @@
+body {}
+a:link, a:active, a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+header {}
+nav {}
+section {}
+h1 {}
+h2 {}
+p {}
+footer {}
