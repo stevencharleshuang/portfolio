@@ -1,14 +1,80 @@
-body {}
+body {
+  width: 100%;
+  height: auto;
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
 a:link, a:active, a:visited {
+  color: #3af;
   text-decoration: none;
 }
 a:hover {
-  text-decoration: none;
+  color: #5cf;
+  border-bottom: 1px solid #3af;
 }
-header {}
-nav {}
-section {}
+header {
+  height: auto;
+  width: 100%;
+  background: #36a;
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+nav {
+  display: inline;
+}
+nav ul{
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+}
+
+nav li {
+   display: inline-block;
+   padding: 1% 5%;
+}
+
+section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.about {
+  background: #a9d5ff;
+  margin: 0 auto;
+  padding: 3%;
+  width: 100%;
+}
+.about p {
+  margin: 0 auto;
+  width: 50%;
+}
+.projects {
+  background: #adf;
+  width: 100%;
+  margin: 0;
+  padding: 3%;
+}
+.projects img {
+  width: 20%;
+  height: auto;
+}
+.skills {
+  background: #a5e5ff;
+  width: 100%;
+  margin: 0;
+  padding: 3%;
+}
+.skills p {
+  width: 50%;
+  margin: 0 auto;
+}
+.contact {}
 h1 {}
 h2 {}
+h3 {}
 p {}
 footer {}
