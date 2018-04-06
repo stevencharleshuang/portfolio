@@ -62,6 +62,19 @@ section {
   width: 20%;
   height: auto;
 }
+.web-projects {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+}
+.music-projects {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+}
+.steve-fighter {
+  color: white;
+}
 .skills {
   background: #a5e5ff;
   width: 100%;
@@ -75,6 +88,10 @@ section {
 .contact {}
 h1 {}
 h2 {}
-h3 {}
+h3 {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
 p {}
 footer {}
