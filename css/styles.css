@@ -16,6 +16,7 @@ a:hover {
   border-bottom: 1px solid #3af;
 }
 header {
+  position: fixed;
   height: auto;
   width: 100%;
   background: #2C3A44;
@@ -23,9 +24,15 @@ header {
   margin: 0;
   padding: 10px;
   letter-spacing: 2px;
+  z-index: 1;
 }
 nav {
+  position: fixed;
+  top: 12%;
+  width: 100%;
+  right: 0;
   display: inline;
+  z-index: 1;
 }
 nav ul{
   background: #3F423F;
@@ -46,10 +53,14 @@ section {
 }
 .about {
 /*  background: #364960;*/
+  position: absolute;
+  top: 20%;
+  right: 0;
   color: #FFFFFE;
   text-align: center;
   padding: 10px;
   width: 100%;
+  /*z-index: 2;*/
 }
 .about p {
   margin: 0 auto;
@@ -57,6 +68,8 @@ section {
 }
 .projects {
   /*background: #adf;*/
+  position: absolute;
+  top: 40%;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -94,10 +107,13 @@ section {
   color: white;
 }
 .skills {
+  position: absolute;
+  top: 90%;
   background: #a5e5ff;
   width: 100%;
+  height: auto;
   margin: 0;
-  padding: 10px;
+  padding: 20px;
 }
 .skills p {
   width: 50%;
@@ -113,10 +129,15 @@ h3 {
 }
 p {}
 footer {
+  position: absolute;
+  top: 125%;
+  width: 100%;
+  right: 0;
   background: #2C3A44;
   color: #FFFFFE;
+  z-index: 4;
   
   /*margin: 0;*/
   padding: 1%;
-  left: 50%;
+  /*left: 50%;*/
 }
