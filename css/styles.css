@@ -1,4 +1,5 @@
 body {
+  background-image: url('../images/bg-01.jpg');
   width: 100%;
   height: auto;
   font-family: 'Slabo 27px', serif;
@@ -15,6 +16,7 @@ a:hover {
   border-bottom: 1px solid #3af;
 }
 header {
+  position: fixed;
   height: auto;
   width: 100%;
   background: #36a;
@@ -27,6 +29,10 @@ nav {
   display: inline;
 }
 nav ul{
+  position: fixed;
+  width: 100%;
+  top: 16%;
+  background: #fff;
   list-style: none;
   margin: 0 2px;
   padding: 0;
@@ -43,7 +49,9 @@ section {
   padding: 0;
 }
 .about {
-  background: #a9d5ff;
+  position: absolute;
+  top: 30%;
+  background: rgba(17,100,200,.8);
   margin: 0 auto;
   padding: 3%;
   width: 100%;
@@ -53,6 +61,8 @@ section {
   width: 50%;
 }
 .projects {
+  position: absolute;
+  top: 50%;
   background: #adf;
   width: 100%;
   margin: 0;
@@ -76,8 +86,10 @@ section {
   color: white;
 }
 .skills {
+  position: absolute;
+  top: 70%;
   background: #a5e5ff;
-  width: 100%;
+  /*width: 100%;*/
   margin: 0;
   padding: 3%;
 }
