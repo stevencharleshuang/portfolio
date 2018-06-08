@@ -7,6 +7,7 @@ MARIGOLD: #F7CE3E  rgb(247,206,62)
 Custom Blue: #1C5375 rgb(28,83,117)
 */
 body {
+<<<<<<< HEAD
   background-color: rgb(10,22,18);
   background-image: url('../images/bg-01.jpg');
   background-repeat: no-repeat;
@@ -25,7 +26,7 @@ a:link, a:active, a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: #5cf;
+  color: #6df;
   border-bottom: 1px solid #3af;
 }
 header {
@@ -38,9 +39,15 @@ header {
   margin: 0;
   padding: 10px;
   letter-spacing: 2px;
+  z-index: 1;
 }
 nav {
+  position: fixed;
+  top: 12%;
+  width: 100%;
+  right: 0;
   display: inline;
+  z-index: 1;
 }
 nav ul{
   position: fixed;
@@ -72,6 +79,7 @@ section {
   margin: 0 auto;
   padding: 3%;
   width: 100%;
+  /*z-index: 2;*/
 }
 .about p {
   margin: 0 auto;
@@ -81,21 +89,36 @@ section {
   background: rgba(26,41,48,.7);
   width: 100%;
   margin: 0;
-  padding: 3%;
+  padding: 0;
+}
+.projects-gallery {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 .projects img {
   width: 20%;
   height: auto;
 }
 .web-projects {
+  flex: 50%;
+  background: #2C3A44;
   display: inline-block;
   position: relative;
+  margin: 1%;
+  padding: 10px;
   width: 50%;
+  border-radius: 8px;
 }
 .music-projects {
+  flex: 50%;
+  background: #2C3A44;
   display: inline-block;
   position: relative;
+  margin: 1%;
+  padding: 10px;
   width: 50%;
+  border-radius: 8px;
 }
 .steve-fighter {
   color: white;
@@ -104,8 +127,9 @@ section {
   background: rgba(26,41,48,.8);
   color: rgb(197,193,192);
   width: 100%;
+  height: auto;
   margin: 0;
-  padding: 3%;
+  padding: 20px;
 }
 .skills p {
   width: 50%;
